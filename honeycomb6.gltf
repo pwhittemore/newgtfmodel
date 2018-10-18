@@ -1,0 +1,200 @@
+{
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5123,
+            "count" : 3678,
+            "max" : [
+                2513
+            ],
+            "min" : [
+                0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 2514,
+            "max" : [
+                1.0504810810089111,
+                2.4896645545959473,
+                1.0506014823913574
+            ],
+            "min" : [
+                -1.0299568176269531,
+                -0.007334232330322266,
+                -1.029835820198059
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 2514,
+            "max" : [
+                0.9904382824897766,
+                0.995230495929718,
+                0.9904382824897766
+            ],
+            "min" : [
+                -0.9904383420944214,
+                -0.9951384663581848,
+                -0.9904382228851318
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 2514,
+            "max" : [
+                1.0981104373931885,
+                0.9767579436302185
+            ],
+            "min" : [
+                0.1788211464881897,
+                0.02910548448562622
+            ],
+            "type" : "VEC2"
+        }
+    ],
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 exporter",
+        "version" : "2.0"
+    },
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 7356,
+            "byteOffset" : 0,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 30168,
+            "byteOffset" : 7356,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 30168,
+            "byteOffset" : 37524,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 20112,
+            "byteOffset" : 67692,
+            "target" : 34962
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 87804,
+            "uri" : "honeycomb6.bin"
+        }
+    ],
+    "images" : [
+        {
+            "name" : "honeycomb",
+            "uri" : "honeycomb.jpg"
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Material",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Sphere",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 2,
+                        "POSITION" : 1,
+                        "TEXCOORD_0" : 3
+                    },
+                    "indices" : 0,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "Camera",
+            "rotation" : [
+                0.48170700669288635,
+                0.3342514932155609,
+                -0.21292175352573395,
+                0.7816000580787659
+            ],
+            "scale" : [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "translation" : [
+                7.481131553649902,
+                5.34366512298584,
+                6.5076398849487305
+            ]
+        },
+        {
+            "name" : "Lamp",
+            "rotation" : [
+                0.16907575726509094,
+                0.7558802962303162,
+                -0.27217137813568115,
+                0.570947527885437
+            ],
+            "scale" : [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "translation" : [
+                4.076245307922363,
+                5.903861999511719,
+                -1.0054539442062378
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "Sphere",
+            "translation" : [
+                0.0,
+                -1.276515007019043,
+                -0.0
+            ]
+        }
+    ],
+    "samplers" : [
+        {}
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                2,
+                1,
+                0
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ]
+}
